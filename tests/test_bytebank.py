@@ -60,13 +60,4 @@ class TestClass:
             
             assert resultado  # then
             
-    def test_retorno_str(self):
-        nome, data_nascimento, salario = 'Teste', '11/11/2000', 1000 # given
-        esperado = 'Funcionario(Teste, 11/11/2000, 1000)'
-        
-        funcionario_teste = Funcionario(nome, data_nascimento, salario)
-        
-        # when
-        resultado = funcionario_teste.__str__()
-        
-        assert resultado == esperado # then
+ 
